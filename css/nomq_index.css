@@ -10,8 +10,8 @@
 
 	#page
 	{
-		min-height: 3329px;
-		padding-bottom: 89px;
+		min-height: 3340px;
+		padding-bottom: 78px;
 		max-width: 1680px;
 	}
 
@@ -82,29 +82,29 @@
 		margin-bottom: -1px;
 	}
 
-	#u10496
+	#pu10514
 	{
-		z-index: 39;
-		width: 1000px;
 		margin-top: 70px;
-		left: -500px;
+		width: 100%;
 	}
 
-	#u10496_position_content
+	#u10514
 	{
-		width: 100%;
-		margin-left: 0%;
+		z-index: 38;
+		width: 1000px;
+		padding-bottom: 0px;
+		margin-right: -10000px;
+		left: -500px;
 	}
 
 	#u2486-4
 	{
-		z-index: 82;
-		left: 0px;
+		z-index: 66;
 	}
 
 	#u2487-4
 	{
-		z-index: 86;
+		z-index: 70;
 		left: 0px;
 	}
 
@@ -117,14 +117,14 @@
 
 	#u2485-19
 	{
-		z-index: 63;
+		z-index: 47;
 		margin-right: -10000px;
 		left: 0px;
 	}
 
 	#u2484-8
 	{
-		z-index: 40;
+		z-index: 39;
 		width: 705px;
 		min-height: 610px;
 		margin-right: -10000px;
@@ -143,54 +143,70 @@
 		line-height: 36px;
 	}
 
+	#u3688
+	{
+		z-index: 74;
+		width: 1px;
+		height: 3000px;
+		background-color: #7F7F7F;
+		position: relative;
+		margin-right: -10000px;
+		margin-top: 170px;
+		margin-left: 50%;
+		left: -233px;
+	}
+
+	#u10590
+	{
+		z-index: 75;
+		width: 705px;
+		margin-right: -10000px;
+		margin-top: 780px;
+		left: -205px;
+	}
+
+	#u10590_position_content
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
 	#u8119
 	{
-		z-index: 90;
+		z-index: 91;
 		width: 705px;
 		min-height: 453px;
-		left: -205px;
+		left: -353px;
 	}
 
 	#u8040-15
 	{
-		z-index: 48;
-		left: 294px;
+		z-index: 76;
+		left: -1px;
 	}
 
 	#pu8136
 	{
 		margin-top: 18px;
-		width: 70.5%;
-		margin-left: 14.76%;
+		width: 100%;
+		margin-left: 0%;
 	}
 
 	#u8136
-	{
-		z-index: 91;
-		width: 350px;
-		min-height: 750px;
-		margin-right: -10000px;
-		left: -205.50000000000003px;
-	}
-
-	#u8167
 	{
 		z-index: 92;
 		width: 350px;
 		min-height: 750px;
 		margin-right: -10000px;
-		left: 150.49999999999997px;
+		left: -353px;
 	}
 
-	#u3688
+	#u8167
 	{
-		z-index: 38;
-		width: 1px;
-		height: 3000px;
-		background-color: #7F7F7F;
-		position: fixed;
-		top: 340px;
-		left: 50%;
-		margin-left: -233px;
+		z-index: 93;
+		width: 350px;
+		min-height: 750px;
+		margin-right: -10000px;
+		left: 3px;
 	}
 
