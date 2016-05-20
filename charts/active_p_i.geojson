@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "disp": "01", "long_text": null, "Name_short": "Turkey", "Name_long": "Turkey", "id": 1, "present": null, "arrivals": null, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 28.09622762, 38.89571944 ] } },
+{ "type": "Feature", "properties": { "disp": "A", "long_text": null, "Name_short": "Lesvos", "Name_long": "Lesvos", "id": 9, "present": null, "arrivals": null, "dep_main": "46", "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 25.46424233, 39.27335691 ] } },
+{ "type": "Feature", "properties": { "disp": "B", "long_text": null, "Name_short": "Chios", "Name_long": "Chios", "id": 10, "present": null, "arrivals": "98", "dep_main": "17", "dep_turk": 4 }, "geometry": { "type": "Point", "coordinates": [ 25.31711157, 38.38213248 ] } },
+{ "type": "Feature", "properties": { "disp": "C", "long_text": null, "Name_short": "Samos", "Name_long": "Samos", "id": 11, "present": null, "arrivals": null, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 26.18749201, 37.85344003 ] } },
+{ "type": "Feature", "properties": { "disp": "D", "long_text": null, "Name_short": "Leros", "Name_long": "Leros", "id": 12, "present": null, "arrivals": null, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 26.24820972, 37.13592884 ] } },
+{ "type": "Feature", "properties": { "disp": "E", "long_text": null, "Name_short": "Kos", "Name_long": "Kos", "id": 13, "present": null, "arrivals": null, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 27.76179668, 36.90934636 ] } },
+{ "type": "Feature", "properties": { "disp": "02", "long_text": null, "Name_short": "Greece", "Name_long": "Greece (Mainland)", "id": 2, "present": null, "arrivals": null, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 24.14440588, 39.11685213 ] } },
+{ "type": "Feature", "properties": { "disp": "", "long_text": null, "Name_short": "Other", "Name_long": "Other", "id": 0, "present": null, "arrivals": null, "dep_main": 1, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 39.11685213, 24.14440588 ] } }
+]
+}

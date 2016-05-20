@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                                                                  
+"features": [
+{ "type": "Feature", "properties": { "disp": "01", "long_text": null, "Name_short": "Turkey", "Name_long": "Turkey", "id": 1, "present": null, "arrivals": null, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 28.09622762, 38.89571944 ] } },
+{ "type": "Feature", "properties": { "disp": "05", "long_text": null, "Name_short": "Croatia", "Name_long": "Croatia", "id": 5, "present": 576, "arrivals": 0, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 16.51393862, 45.78382685 ] } },
+{ "type": "Feature", "properties": { "disp": "07", "long_text": null, "Name_short": "Slovenia", "Name_long": "Slovenia", "id": 7, "present": 40, "arrivals": 0, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 14.3387468, 45.99530384 ] } },
+{ "type": "Feature", "properties": { "disp": "04", "long_text": null, "Name_short": "Serbia", "Name_long": "Serbia", "id": 4, "present": 1000, "arrivals": 44, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 20.66432225, 44.15243299 ] } },
+{ "type": "Feature", "properties": { "disp": "03", "long_text": null, "Name_short": "fYRoM", "Name_long": "fYRoM*", "id": 3, "present": 404, "arrivals": 0, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 21.6081202, 41.59386522 ] } },
+{ "type": "Feature", "properties": { "disp": "02", "long_text": null, "Name_short": "Greece", "Name_long": "Greece (Mainland)", "id": 2, "present": 46004, "arrivals": 40, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 22.29571611, 39.43951739 ] } },
+{ "type": "Feature", "properties": { "disp": "08", "long_text": null, "Name_short": "Austria", "Name_long": "Austria", "id": 8, "present": "N/A", "arrivals": "N/A", "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 14.74296675, 47.6266977 ] } },
+{ "type": "Feature", "properties": { "disp": "06", "long_text": null, "Name_short": "Hungary", "Name_long": "Hungary", "id": 6, "present": null, "arrivals": 121, "dep_main": null, "dep_turk": null }, "geometry": { "type": "Point", "coordinates": [ 18.24744246, 46.72036777 ] } }
+]
+}

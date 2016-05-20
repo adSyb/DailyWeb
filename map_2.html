@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+svg{
+	font-family: sans-serif;
+	font-size: 20pt;
+}
+
+.land{
+	fill: #eee;
+	stroke-width: 1px;
+	stroke: #bbb;
+	stroke-opacity: 1;
+}
+
+table{
+	font-family: sans-serif;
+	color: #333;
+	position: relative;
+	padding: 10px;
+	font-size: 10pt;
+	background-color: white;
+}
+
+th, td {
+	padding: 5px;
+	border-bottom: 1px solid #ddd;
+}
+
+th.num, td.num { width: 200px; text-align: right; }
+th.center { text-align: center; }
+
+</style>
+
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://d3js.org/queue.v1.min.js"></script>
+<script src="https://rawgit.com/gka/d3-jetpack/master/d3-jetpack.js"></script>
+<script src="charts/tabletop.js"></script>
+
+<body>
+<div id="map1" class="map1"></div>
+<div id="tablearr" class="tablearr"></div>
+<script>
+var map = d3.select("#map1").append("svg")
+	.attr("viewBox", "0 0 500 500");
+
+var projection = d3.geo.mercator()
+	.scale(4200)
+	.translate([-1700, 3250]);
+
+map.append("clipPath")
+	.attr("id", "clip2")
+	.append("rect")
+	.attr("x", 0)
+	.attr("y", 0)
+	.attr("width", 500)
+	.attr("height", 500);
+
+var path = d3.geo.path()
+	.projection(projection)
+	.pointRadius(18);
+
+queue()
+	.defer(d3.json, "charts/land.geojson")
+	.defer(d3.json, "charts/islands.geojson")
+	.defer(d3.json, "charts/active_p_i.geojson")
+	.await(makeMap)
+
+function makeMap(error, land, active, points){
+
+	map.append("path")
+		.datum(land)
+		.attr("class","land")
+		.attr("d", path)
+		.attr("clip-path", "url(#clip2)");
+	
+	map.selectAll("active")
+		.data(active.features)
+		.enter().append("path")
+		.attr('class', function(d){return d.properties.name})
+		.attr("d", path)
+		.attr("clip-path", "url(#clip2)")
+		.style("stroke","#333").style("fill","#bbb")
+		.on("mouseover", function(d){
+			d3.select(this).style("fill","#333");
+			d3.selectAll("path."+d.properties.name+"P").style("fill","#333");
+			d3.selectAll("text."+d.properties.name).style("fill","#fff");
+			d3.selectAll("tr."+d.properties.name).style("background-color","#999");
+		})
+		.on("mouseout", function(d){
+			d3.select(this).style("fill","#bbb");
+			d3.selectAll("path."+d.properties.name+"P").style("fill","#bbb")
+			d3.selectAll("text."+d.properties.name).style("fill","#333")
+			d3.selectAll("tr."+d.properties.name).style("background-color","#fff");
+		});
+	
+	map.selectAll("points")
+		.data(points.features)
+		.enter().append("path")
+		.attr("class", function(d){ return d.properties.Name_short + "P";})
+		.attr("d", path)
+		.attr("clip-path", "url(#clip2)")
+		.style("fill", function(d){ if(d.properties.disp == "01" || d.properties.disp == "02"){ return "none"; } else{ return "#bbb"; }})
+		.style("stroke", function(d){ if(d.properties.disp == "01" || d.properties.disp == "02"){ return "none"; } else{ return "#333"; }})
+		.on("mouseover", function(d){
+			if (d.properties.id == 1 || d.properties.id == 2){} else{
+				d3.select(this).style("fill","#333");
+				d3.selectAll("text."+d.properties.Name_short).style("fill","#fff");
+				d3.selectAll("path."+d.properties.Name_short).style("fill","#333");
+				d3.selectAll("tr."+d.properties.Name_short).style("background-color","#999");
+			}
+		})
+		.on("mouseout", function(d){
+			if (d.properties.id == 1 || d.properties.id == 2){} else{
+				d3.select(this).style("fill","#bbb");
+				d3.selectAll("text."+d.properties.Name_short).style("fill","#333");
+				d3.selectAll("path."+d.properties.Name_short).style("fill","#bbb");
+				d3.selectAll("tr."+d.properties.Name_short).style("background-color","#fff");
+			}
+		});
+	
+	map.selectAll(".pointlabel")
+		.data(points.features)
+		.enter().append("text")
+		.attr("class", function(d){ return d.properties.Name_short;})
+		.attr("transform", function(d) { return "translate(" + path.centroid(d) + ")"; })
+		.attr("dy", ".35em")
+		.attr("dx", "-.35em")
+		.text(function(d) { return d.properties.disp; })
+		.style("fill", "#333")
+		.on("mouseover", function(d){
+			if (d.properties.id == 1 || d.properties.id == 2){} else{
+				d3.select(this).style("fill","#fff");
+				d3.selectAll("path."+d.properties.Name_short+"P").style("fill","#333");
+				d3.selectAll("path."+d.properties.Name_short).style("fill","#333");
+				d3.selectAll("tr."+d.properties.Name_short).style("background-color","#999");
+			}
+		})
+		.on("mouseout", function(d){
+			if (d.properties.id == 1 || d.properties.id == 2){} else{
+				d3.select(this).style("fill","#333");
+				d3.selectAll("path."+d.properties.Name_short+"P").style("fill","#bbb");
+				d3.selectAll("path."+d.properties.Name_short).style("fill","#bbb");
+				d3.selectAll("tr."+d.properties.Name_short).style("background-color","#fff");
+			}
+		});
+
+}
+
+function renderSpreadsheetData() {
+	Tabletop.init( { key: '1OiV_ynjabOoBsZkfD758rJHCpE2cpAAKC3LM_hukelI',
+					callback: drawTable,
+					simpleSheet: true,
+					debug:true } )
+}
+
+function drawTable(data, tabletop){
+
+	var columns = [
+		{ head: ' ', cl: 'name', html: ƒ('disp') },
+		{ head: ' ', cl: 'name', html: ƒ('Name_short') },
+		{ head: 'Arrivals', cl: 'num', html: ƒ('arrivals') },
+		{ head: 'Departures', cl: 'num', html: ƒ('dep_main') },
+		{ head: '', cl: 'num', html: ƒ('dep_turk') }
+    ];
+	
+	var sub = [
+		{ head: ' ', cl: 'name', html: ƒ('disp') },
+		{ head: ' ', cl: 'name', html: ƒ('Name_short') },
+		{ head: '', cl: 'num', html: ƒ('arrivals') },
+		{ head: 'to Greece Mainland', cl: 'num', html: ƒ('dep_main') },
+		{ head: 'to Turkey', cl: 'num', html: ƒ('dep_turk') }
+    ];
+
+	// create table
+	var table = d3.select('#tablearr').append('table');
+
+	// create table header
+	table.append('thead').append('tr')
+		.selectAll('th')
+		.data(columns).enter()
+		.append('th')
+		.attr('class', "center")
+		.text(ƒ('head'));
+	
+	table.append('thead').append('tr')
+		.selectAll('th')
+		.data(sub).enter()
+		.append('th')
+		.attr('class', "center")
+		.text(ƒ('head'));
+
+	// create table body
+	table.append('tbody')
+		.selectAll('tr')
+		.data(data/*points.features.sort(function(a,b){ return a.properties.id-b.properties.id; })*/)
+		.enter()
+		.append('tr')
+		.attr("class", function(d){ return d.Name_short})
+		.on("mouseover", function(d){
+			if (d.id < 3){}
+			else{
+				d3.select(this).style("background-color","#999");
+				d3.selectAll("path."+d.Name_short+"P").style("fill","#333");
+				d3.selectAll("path."+d.Name_short).style("fill","#333");
+				d3.selectAll("text."+d.Name_short).style("fill","#fff");
+			}
+		})
+		.on("mouseout", function(d){
+			if (d.id < 3){}
+			else{
+				d3.select(this).style("background-color","#fff");
+				d3.selectAll("path."+d.Name_short+"P").style("fill","#bbb");
+				d3.selectAll("path."+d.Name_short).style("fill","#bbb");
+				d3.selectAll("text."+d.Name_short).style("fill","#333");
+			}
+		})
+		.selectAll('td')
+		.data(function(row, i) {
+			var x = columns.map(function(c) {
+				// compute cell values for this specific row
+				var cell = {};
+				d3.keys(c).forEach(function(k) {
+					cell[k] = typeof c[k] == 'function' ? c[k](row,i) : c[k];
+				});
+				return cell;
+			});
+			//if (row.properties.id == 9){ console.log(x); }
+			
+			return(x);
+		}).enter()
+		.append('td')
+		.html(ƒ('html'))
+		.attr('class', ƒ('cl'));
+}
+
+renderSpreadsheetData();
+</script>
