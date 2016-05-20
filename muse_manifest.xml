@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1463754913790">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1463755655722">
   <folder name="css">
     <file name="site_global.css" crc="29783673"/>
     <file name="master_a-master.css" crc="377607358" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="3836996311" ref="index"/>
-    <file name="index.css" crc="3868014795" ref="index"/>
-    <file name="nomq_index.css" crc="535723835" ref="index"/>
+    <file name="index.css" crc="240079701" ref="index"/>
+    <file name="nomq_index.css" crc="3912371314" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
@@ -49,5 +49,5 @@
     <file name="u2485-194.png" crc="308079501" ref="index"/>
     <file name="u8040-154.png" crc="60383072" ref="index"/>
   </folder>
-  <file name="index.html" crc="4238921296" seo="true" mt="1463754897957" redirect="true"/>
+  <file name="index.html" crc="4262175150" seo="true" mt="1463755644288" redirect="true"/>
 </manifest>
