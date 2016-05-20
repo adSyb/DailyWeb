@@ -40,6 +40,7 @@ th, td {
 }
 
 th.num, td.num { width: 200px; text-align: right; }
+th.name, td.name { width: 400px; text-align: left; }
 th.center { text-align: center; }
 
 </style>
@@ -135,8 +136,8 @@ function renderSpreadsheetData() {
 function drawTable(data, tabletop){
 			
 	var columns = [
-		{ head: ' ', cl: 'name', html: ƒ('disp') },
-		{ head: ' ', cl: 'num', html: ƒ('Name_long') },
+		{ head: ' ', cl: 'index', html: ƒ('disp') },
+		{ head: ' ', cl: 'name', html: ƒ('Name_long') },
 		{ head: 'Arrivals', cl: 'num', html: ƒ('arrivals') },
 		{ head: 'Present', cl: 'num', html: ƒ('present') }
     ];
