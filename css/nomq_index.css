@@ -151,29 +151,19 @@
 
 	#u2486-4
 	{
-		z-index: 69;
+		z-index: 68;
 		width: 1200px;
-		min-height: 59px;
-		background-color: transparent;
-		letter-spacing: 30px;
 		line-height: 58px;
 		font-size: 48px;
-		text-align: center;
-		font-family: futura-pt, sans-serif;
-		font-weight: 300;
 		margin-top: 24px;
-		margin-left: 50%;
 		left: -600px;
-	}
-
-	#u2486-2
-	{
-		padding-bottom: 10px;
 	}
 
 	#u2487-4
 	{
-		z-index: 73;
+		z-index: 72;
+		width: 1200px;
+		left: -600px;
 	}
 
 	#pu2485-19
@@ -184,29 +174,11 @@
 
 	#u2485-19
 	{
-		z-index: 50;
+		z-index: 49;
 		width: 230px;
 		min-height: 108px;
 		margin-right: -10000px;
 		left: -490px;
-	}
-
-	#u2485-2
-	{
-		font-size: 28px;
-		line-height: 34px;
-	}
-
-	#u2485-5,#u2485-10,#u2485-15
-	{
-		font-size: 48px;
-		line-height: 58px;
-	}
-
-	#u2485-7,#u2485-8,#u2485-12,#u2485-17
-	{
-		font-size: 18px;
-		line-height: 22px;
 	}
 
 	#u3688
@@ -221,7 +193,7 @@
 		left: -233px;
 	}
 
-	#pu2484-9
+	#pu2484-8
 	{
 		padding-bottom: 0px;
 		margin-right: -10000px;
@@ -229,7 +201,7 @@
 		margin-left: 29.17%;
 	}
 
-	#u2484-9
+	#u2484-8
 	{
 		z-index: 41;
 		width: 695px;
@@ -237,15 +209,9 @@
 		left: -204.99999999999994px;
 	}
 
-	#u2484-5,#u2484-7
-	{
-		font-size: 18px;
-		line-height: 36px;
-	}
-
 	#u8119
 	{
-		z-index: 92;
+		z-index: 91;
 		width: 700px;
 		min-height: 453px;
 		margin-top: 20px;
@@ -254,32 +220,17 @@
 
 	#u8040-15
 	{
-		z-index: 77;
+		z-index: 76;
 		width: 695px;
 		min-height: 1158px;
-		background-color: transparent;
-		color: #030303;
-		text-align: justify;
 		margin-top: 31px;
-		margin-left: 50%;
 		left: -204.99999999999994px;
 	}
 
-	#u8040-2,#u8040-7
-	{
-		font-size: 28px;
-		line-height: 28px;
-		padding-bottom: 20px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u8040-4,#u8040-5,#u8040-9,#u8040-11,#u8040-13
+	#u2484-4,#u2484-6,#u8040-4,#u8040-5,#u8040-9,#u8040-11,#u8040-13
 	{
 		font-size: 18px;
 		line-height: 36px;
-		padding-bottom: 10px;
-		font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 	}
 
 	#pu8136
@@ -290,7 +241,7 @@
 
 	#u8136
 	{
-		z-index: 93;
+		z-index: 92;
 		width: 420px;
 		min-height: 750px;
 		margin-right: -10000px;
@@ -299,7 +250,7 @@
 
 	#u8167
 	{
-		z-index: 94;
+		z-index: 93;
 		width: 420px;
 		min-height: 750px;
 		margin-right: -10000px;
