@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1463735710441">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1463739182518">
   <folder name="css">
     <file name="site_global.css" crc="29783673"/>
-    <file name="master_a-master.css" crc="4129144985" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="3913826674" ref="index"/>
-    <file name="index.css" crc="143375811" ref="index"/>
-    <file name="nomq_index.css" crc="69580949" ref="index"/>
+    <file name="master_a-master.css" crc="3881723134" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="3956383963" ref="index"/>
+    <file name="index.css" crc="250552403" ref="index"/>
+    <file name="nomq_index.css" crc="443674979" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
@@ -21,5 +21,5 @@
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="u8040-16.png" crc="314316659" ref="index"/>
   </folder>
-  <file name="index.html" crc="495329519" seo="true" mt="1463735664678" redirect="true"/>
+  <file name="index.html" crc="358770887" seo="true" mt="1463739140954" redirect="true"/>
 </manifest>

@@ -5,11 +5,6 @@
 		background-color: transparent;
 	}
 
-	#u3568
-	{
-		background-color: transparent;
-	}
-
 	#u3570-8
 	{
 		background-color: transparent;
@@ -20,9 +15,35 @@
 		font-weight: 400;
 	}
 
-	#u3570-8:hover
+	#u3568,#u3570-8:hover
 	{
-		background-color: #050505;
+		background-color: transparent;
+	}
+
+	#u3230-4
+	{
+		color: #444444;
+		font-size: 14px;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+		font-weight: normal;
+	}
+
+	#u3222-4
+	{
+		color: #444444;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	}
+
+	#u3213-4
+	{
+		color: #444444;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	}
+
+	#u3238-4
+	{
+		color: #444444;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
 	}
 
 

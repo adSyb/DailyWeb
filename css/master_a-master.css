@@ -13,17 +13,12 @@
 #u3230-4,#u3222-4,#u3213-4,#u3238-4
 {
 	border-color: transparent;
-	font-weight: 400;
 	text-align: center;
-	font-size: 16px;
 	background-color: transparent;
-	color: #000000;
-	line-height: 19px;
 	border-width: 0px;
-	font-family: futura-pt, sans-serif;
 }
 
-#u3228:hover #u3230-4 p,#u3228.MuseMenuActive #u3230-4 p,#u3221:hover #u3222-4 p,#u3221.MuseMenuActive #u3222-4 p,#u3212:hover #u3213-4 p,#u3212.MuseMenuActive #u3213-4 p,#u3235:hover #u3238-4 p,#u3235.MuseMenuActive #u3238-4 p
+#u3228:hover #u3230-4 p,#u3228:hover #u3230-4 span,#u3228.MuseMenuActive #u3230-4 p,#u3228.MuseMenuActive #u3230-4 span,#u3221:hover #u3222-4 p,#u3221:hover #u3222-4 span,#u3221.MuseMenuActive #u3222-4 p,#u3221.MuseMenuActive #u3222-4 span,#u3212:hover #u3213-4 p,#u3212:hover #u3213-4 span,#u3212.MuseMenuActive #u3213-4 p,#u3212.MuseMenuActive #u3213-4 span,#u3235:hover #u3238-4 p,#u3235:hover #u3238-4 span,#u3235.MuseMenuActive #u3238-4 p,#u3235.MuseMenuActive #u3238-4 span
 {
 	color: #0072BC;
 	visibility: inherit;
@@ -39,17 +34,12 @@
 	background-color: #7F7F7F;
 }
 
-@media (min-width: 873px)
+@media (min-width: 1025px)
 {
 	#u3567
 	{
 		border-width: 0px;
 		border-color: transparent;
-		background-color: transparent;
-	}
-
-	#u3568
-	{
 		background-color: transparent;
 	}
 
@@ -63,24 +53,45 @@
 		font-weight: 400;
 	}
 
-	#u3570-8:hover
+	#u3568,#u3570-8:hover
 	{
-		background-color: #050505;
+		background-color: transparent;
+	}
+
+	#u3230-4
+	{
+		color: #444444;
+		font-size: 14px;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+		font-weight: normal;
+	}
+
+	#u3222-4
+	{
+		color: #444444;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	}
+
+	#u3213-4
+	{
+		color: #444444;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+	}
+
+	#u3238-4
+	{
+		color: #444444;
+		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
 	}
 
 }
 
-@media (min-width: 641px) and (max-width: 872px)
+@media (min-width: 801px) and (max-width: 1024px)
 {
 	#u3567
 	{
 		border-width: 0px;
 		border-color: transparent;
-		background-color: transparent;
-	}
-
-	#u3568
-	{
 		background-color: transparent;
 	}
 
@@ -94,18 +105,152 @@
 		font-weight: 400;
 	}
 
-	#u3570-8:hover
+	#u3568,#u3570-8:hover
 	{
-		background-color: #050505;
+		background-color: transparent;
+	}
+
+	#u3230-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3222-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3213-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3238-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
 	}
 
 }
 
-@media (max-width: 640px)
+@media (min-width: 601px) and (max-width: 800px)
+{
+	#u3567
+	{
+		border-width: 0px;
+		border-color: transparent;
+		background-color: transparent;
+	}
+
+	#u3570-8
+	{
+		background-color: transparent;
+		color: #0072BC;
+		line-height: 24px;
+		font-size: 20px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3568,#u3570-8:hover
+	{
+		background-color: transparent;
+	}
+
+	#u3230-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3222-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3213-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3238-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+}
+
+@media (max-width: 600px)
 {
 	#u7552
 	{
 		background-color: transparent;
+	}
+
+	#u3230-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3222-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3213-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
+	}
+
+	#u3238-4
+	{
+		color: #000000;
+		line-height: 19px;
+		font-size: 16px;
+		font-family: futura-pt, sans-serif;
+		font-weight: 400;
 	}
 
 }

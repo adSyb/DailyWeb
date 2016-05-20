@@ -65,132 +65,152 @@
 
 	#menuu3210
 	{
-		width: 297px;
+		width: 293px;
 		margin-top: 63px;
-		left: -149px;
+		left: -147px;
 	}
 
-	#u3225,#u3228
+	#u3228
 	{
-		width: 62px;
+		width: 60px;
+		padding-bottom: 23px;
 	}
 
-	#u3228:hover
+	#u3225,#u3228:hover
 	{
-		width: 62px;
+		width: 60px;
 	}
 
 	#u3228.MuseMenuActive
 	{
-		width: 62px;
+		width: 60px;
 	}
 
 	#u3230-4
 	{
-		width: 44px;
+		width: 42px;
+		min-height: 17px;
+		top: 11px;
 	}
 
 	#u3228:hover #u3230-4
 	{
-		width: 44px;
+		min-height: 17px;
+		width: 42px;
 	}
 
 	#u3228.MuseMenuActive #u3230-4
 	{
-		width: 44px;
+		min-height: 17px;
+		width: 42px;
 	}
 
 	#u3218
 	{
-		width: 55px;
-		left: 64px;
+		width: 53px;
+		left: 62px;
 	}
 
 	#u3221
 	{
-		width: 55px;
+		width: 53px;
+		padding-bottom: 23px;
 	}
 
 	#u3221.MuseMenuActive
 	{
-		width: 55px;
+		width: 53px;
 	}
 
 	#u3222-4
 	{
-		width: 37px;
+		width: 35px;
+		min-height: 17px;
+		top: 11px;
 	}
 
 	#u3221:hover #u3222-4
 	{
-		width: 37px;
+		min-height: 17px;
+		width: 35px;
 	}
 
 	#u3221.MuseMenuActive #u3222-4
 	{
-		width: 37px;
+		min-height: 17px;
+		width: 35px;
 	}
 
 	#u3211
 	{
-		width: 100px;
-		left: 121px;
+		width: 99px;
+		left: 117px;
 	}
 
 	#u3212
 	{
-		width: 100px;
+		width: 99px;
+		padding-bottom: 23px;
 	}
 
 	#u3212.MuseMenuActive
 	{
-		width: 100px;
+		width: 99px;
 	}
 
 	#u3213-4
 	{
-		width: 83px;
+		width: 82px;
+		min-height: 17px;
+		top: 11px;
 	}
 
 	#u3212:hover #u3213-4
 	{
-		width: 83px;
+		min-height: 17px;
+		width: 82px;
 	}
 
 	#u3212.MuseMenuActive #u3213-4
 	{
-		width: 83px;
+		min-height: 17px;
+		width: 82px;
 	}
 
 	#u3232
 	{
-		width: 74px;
-		left: 223px;
+		width: 75px;
+		left: 218px;
 	}
 
 	#u3235
 	{
-		width: 74px;
+		width: 75px;
+		padding-bottom: 23px;
 	}
 
 	#u3235.MuseMenuActive
 	{
-		width: 74px;
+		width: 75px;
 	}
 
 	#u3238-4
 	{
-		width: 57px;
+		width: 58px;
+		min-height: 17px;
+		top: 11px;
 	}
 
 	#u3235:hover #u3238-4
 	{
-		width: 57px;
+		min-height: 17px;
+		width: 58px;
 	}
 
 	#u3235.MuseMenuActive #u3238-4
 	{
-		width: 57px;
+		min-height: 17px;
+		width: 58px;
 	}
 
 	#u3667
