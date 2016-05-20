@@ -10,16 +10,9 @@
 
 	#page
 	{
-		min-height: 3417.937654499996px;
-		padding-bottom: 0px;
+		min-height: 3340px;
+		padding-bottom: 78px;
 		max-width: 1680px;
-	}
-
-	#page_position_content
-	{
-		margin-top: -1px;
-		padding-bottom: 62px;
-		width: 100%;
 	}
 
 	#pu3567
@@ -33,159 +26,93 @@
 		width: 289px;
 		position: relative;
 		margin-right: -10000px;
+		left: 20px;
 	}
 
 	#u3568
 	{
-		z-index: 36;
+		z-index: 31;
 		width: 94px;
 		position: relative;
 		margin-right: -10000px;
 	}
 
-	#u3570-8
+	#u3570
 	{
-		z-index: 28;
+		z-index: 29;
+		height: 73px;
 		width: 189px;
-		min-height: 73px;
 		position: relative;
 		margin-right: -10000px;
 		margin-top: 13px;
 		left: 100px;
 	}
 
-	#u3570-8:hover
+	#pu9586-4
 	{
-		padding-top: 0px;
 		padding-bottom: 0px;
-		min-height: 73px;
-		width: 189px;
-		margin: 13px -10000px 0px 0px;
+		margin-right: -10000px;
+		margin-top: 8px;
+		width: 26.43%;
+		margin-left: 36.79%;
+	}
+
+	#u9586-4
+	{
+		z-index: 34;
+		width: 444px;
+		left: -222px;
 	}
 
 	#menuu3210
 	{
-		width: 293px;
-		margin-top: 63px;
-		left: -147px;
-	}
-
-	#u3225,#u3228
-	{
-		width: 60px;
-	}
-
-	#u3228:hover
-	{
-		width: 60px;
-	}
-
-	#u3228.MuseMenuActive
-	{
-		width: 60px;
-	}
-
-	#u3218
-	{
-		width: 53px;
-		left: 62px;
-	}
-
-	#u3221
-	{
-		width: 53px;
-	}
-
-	#u3221.MuseMenuActive
-	{
-		width: 53px;
-	}
-
-	#u3211
-	{
-		width: 99px;
-		left: 117px;
-	}
-
-	#u3212
-	{
-		width: 99px;
-	}
-
-	#u3212.MuseMenuActive
-	{
-		width: 99px;
-	}
-
-	#u3232
-	{
-		width: 75px;
-		left: 218px;
-	}
-
-	#u3235
-	{
-		width: 75px;
-	}
-
-	#u3235.MuseMenuActive
-	{
-		width: 75px;
-	}
-
-	#u3230-4,#u3222-4,#u3213-4,#u3238-4
-	{
-		top: 11px;
+		margin-top: 8px;
+		left: -144px;
 	}
 
 	#u3667
 	{
-		z-index: 38;
+		z-index: 33;
 	}
 
 	#u3667-bw
 	{
-		z-index: 38;
-		margin-top: 5px;
+		z-index: 33;
+		margin-top: -1px;
+		margin-bottom: -1px;
 	}
 
 	#u2486-4
 	{
-		z-index: 68;
-		width: 1200px;
-		line-height: 58px;
-		font-size: 48px;
-		margin-top: 24px;
-		left: -600px;
+		z-index: 67;
+		margin-top: 70px;
+		left: 340px;
 	}
 
 	#u2487-4
 	{
-		z-index: 72;
-		width: 1200px;
-		left: -600px;
+		z-index: 71;
+		left: 340px;
 	}
 
 	#pu2485-19
 	{
-		margin-top: 71px;
+		margin-top: 70px;
 		width: 100%;
 	}
 
 	#u2485-19
 	{
-		z-index: 49;
-		width: 230px;
-		min-height: 108px;
+		z-index: 48;
 		margin-right: -10000px;
-		left: -490px;
+		left: 340px;
 	}
 
 	#u3688
 	{
-		z-index: 39;
+		z-index: 38;
 		width: 1px;
-		height: 2250px;
+		height: 3000px;
 		background-color: #7F7F7F;
 		position: relative;
 		margin-right: -10000px;
@@ -195,71 +122,73 @@
 
 	#pu2484-8
 	{
-		padding-bottom: 0px;
 		margin-right: -10000px;
-		width: 41.67%;
-		margin-left: 29.17%;
+		width: 42.09%;
+		margin-left: 28.96%;
 	}
 
 	#u2484-8
 	{
-		z-index: 41;
-		width: 695px;
-		min-height: 608px;
-		left: -204.99999999999994px;
+		z-index: 40;
+		width: 705px;
+		min-height: 610px;
+		left: -205.49999999999994px;
 	}
 
-	#u8119
+	#u2484-2
 	{
-		z-index: 91;
-		width: 700px;
-		min-height: 453px;
-		margin-top: 20px;
-		left: -204.99999999999994px;
+		font-size: 28px;
+		line-height: 28px;
 	}
 
-	#u8040-15
-	{
-		z-index: 76;
-		width: 695px;
-		min-height: 1158px;
-		margin-top: 31px;
-		left: -204.99999999999994px;
-	}
-
-	#u2484-4,#u2484-6,#u8040-4,#u8040-5,#u8040-9,#u8040-11,#u8040-13
+	#u2484-4,#u2484-6
 	{
 		font-size: 18px;
 		line-height: 36px;
 	}
 
+	#u8119
+	{
+		z-index: 90;
+		width: 705px;
+		min-height: 453px;
+		left: -205.49999999999994px;
+	}
+
+	#u8040-15
+	{
+		z-index: 75;
+		left: 147.50000000000006px;
+	}
+
 	#pu8136
 	{
-		margin-top: 44px;
-		width: 100%;
+		margin-top: 18px;
+		width: 99.72%;
+		margin-left: 0.15%;
 	}
 
 	#u8136
 	{
-		z-index: 92;
-		width: 420px;
+		z-index: 91;
+		width: 350px;
 		min-height: 750px;
 		margin-right: -10000px;
-		left: -420px;
+		left: -205.4999999999999px;
 	}
 
 	#u8167
 	{
-		z-index: 93;
-		width: 420px;
+		z-index: 92;
+		width: 350px;
 		min-height: 750px;
 		margin-right: -10000px;
-		left: 0px;
+		left: 150.5000000000001px;
 	}
 
 	#home
 	{
-		top: -3258px;
+		top: -3204px;
 		margin-bottom: -18px;
 	}
 

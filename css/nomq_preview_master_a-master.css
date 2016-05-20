@@ -5,19 +5,20 @@
 		background-color: transparent;
 	}
 
-	#u3570-8
+	#u3568
 	{
 		background-color: transparent;
-		color: #0072BC;
-		line-height: 24px;
-		font-size: 20px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
 	}
 
-	#u3568,#u3570-8:hover
+	#u3570
 	{
-		background-color: transparent;
+		vertical-align: top;
+		background: transparent url("../images/u3570.png") no-repeat 0px 0px;
+	}
+
+	#u3570:hover
+	{
+		background: transparent url("../images/u3570-r.png") no-repeat 0px 0px;
 	}
 
 
