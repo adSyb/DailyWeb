@@ -5,20 +5,34 @@
 	background-color: transparent;
 }
 
+#u3230-4
+{
+	border-color: transparent;
+	text-align: center;
+	font-size: 14px;
+	background-color: transparent;
+	color: #444444;
+	font-weight: normal;
+	border-width: 0px;
+	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+}
+
 #u3225,#u3228,#u3218,#u3221,#u3211,#u3212,#u3232,#u3235
 {
 	background-color: transparent;
 }
 
-#u3230-4,#u3222-4,#u3213-4,#u3238-4
+#u3222-4,#u3213-4,#u3238-4
 {
 	border-color: transparent;
+	border-width: 0px;
 	text-align: center;
 	background-color: transparent;
-	border-width: 0px;
+	color: #444444;
+	font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
 }
 
-#u3228:hover #u3230-4 p,#u3228:hover #u3230-4 span,#u3228.MuseMenuActive #u3230-4 p,#u3228.MuseMenuActive #u3230-4 span,#u3221:hover #u3222-4 p,#u3221:hover #u3222-4 span,#u3221.MuseMenuActive #u3222-4 p,#u3221.MuseMenuActive #u3222-4 span,#u3212:hover #u3213-4 p,#u3212:hover #u3213-4 span,#u3212.MuseMenuActive #u3213-4 p,#u3212.MuseMenuActive #u3213-4 span,#u3235:hover #u3238-4 p,#u3235:hover #u3238-4 span,#u3235.MuseMenuActive #u3238-4 p,#u3235.MuseMenuActive #u3238-4 span
+#u3228:hover #u3230-4 p,#u3228.MuseMenuActive #u3230-4 p,#u3221:hover #u3222-4 p,#u3221.MuseMenuActive #u3222-4 p,#u3212:hover #u3213-4 p,#u3212.MuseMenuActive #u3213-4 p,#u3235:hover #u3238-4 p,#u3235.MuseMenuActive #u3238-4 p
 {
 	color: #0072BC;
 	visibility: inherit;
@@ -58,32 +72,6 @@
 		background-color: transparent;
 	}
 
-	#u3230-4
-	{
-		color: #444444;
-		font-size: 14px;
-		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
-		font-weight: normal;
-	}
-
-	#u3222-4
-	{
-		color: #444444;
-		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
-	}
-
-	#u3213-4
-	{
-		color: #444444;
-		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
-	}
-
-	#u3238-4
-	{
-		color: #444444;
-		font-family: Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
-	}
-
 }
 
 @media (min-width: 801px) and (max-width: 1024px)
@@ -108,42 +96,6 @@
 	#u3568,#u3570-8:hover
 	{
 		background-color: transparent;
-	}
-
-	#u3230-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3222-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3213-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3238-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
 	}
 
 }
@@ -172,42 +124,6 @@
 		background-color: transparent;
 	}
 
-	#u3230-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3222-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3213-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3238-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
 }
 
 @media (max-width: 600px)
@@ -215,42 +131,6 @@
 	#u7552
 	{
 		background-color: transparent;
-	}
-
-	#u3230-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3222-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3213-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
-	}
-
-	#u3238-4
-	{
-		color: #000000;
-		line-height: 19px;
-		font-size: 16px;
-		font-family: futura-pt, sans-serif;
-		font-weight: 400;
 	}
 
 }
