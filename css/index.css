@@ -23,6 +23,7 @@
 	background-image: none;
 	margin-right: auto;
 	width: 100%;
+	overflow-x: hidden;
 	border-width: 0px;
 }
 
