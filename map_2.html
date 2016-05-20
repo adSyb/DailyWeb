@@ -31,6 +31,14 @@ th.num, td.num { width: 200px; text-align: right; }
 th.name, td.name { width: 400px; text-align: left; }
 th.center { text-align: center; }
 
+td.spec {
+	column-span: 4;
+	-webkit-column-span: 4; /* Safari & Chrome */
+	-moz-column-span: 4; /* Firefox */
+	-ms-column-span: 4; /* Internet Explorer */
+	-o-column-span: 4; /* Opera */
+}
+
 </style>
 
 <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -161,8 +169,7 @@ function drawTable(data, tabletop){
 		{ head: ' ', cl: 'index', html: ƒ('disp') },
 		{ head: ' ', cl: 'name', html: ƒ('Name_short') },
 		{ head: 'Arrivals', cl: 'num', html: ƒ('arrivals') },
-		{ head: 'Departures', cl: 'num', html: ƒ('dep_main') },
-		{ head: '', cl: 'num', html: ƒ('dep_turk') }
+		{ head: 'Departures', cl: 'spec', html: ƒ('dep_main') },
     ];
 	
 	var sub = [
