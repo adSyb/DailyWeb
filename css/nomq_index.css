@@ -10,8 +10,8 @@
 
 	#page
 	{
-		min-height: 3340px;
-		padding-bottom: 78px;
+		min-height: 3329px;
+		padding-bottom: 89px;
 		max-width: 1680px;
 	}
 
@@ -82,32 +82,52 @@
 		margin-bottom: -1px;
 	}
 
-	#pu3688
+	#u10496
+	{
+		z-index: 39;
+		width: 1000px;
+		margin-top: 70px;
+		left: -500px;
+	}
+
+	#u10496_position_content
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	#u2486-4
+	{
+		z-index: 82;
+		left: 0px;
+	}
+
+	#u2487-4
+	{
+		z-index: 86;
+		left: 0px;
+	}
+
+	#pu2485-19
 	{
 		margin-top: 70px;
 		width: 100%;
+		margin-left: 0%;
 	}
 
-	#u3688
+	#u2485-19
 	{
-		z-index: 38;
-		width: 1px;
-		height: 3000px;
-		background-color: #7F7F7F;
-		position: relative;
+		z-index: 63;
 		margin-right: -10000px;
-		margin-top: 170px;
-		margin-left: 50%;
-		left: -233px;
+		left: 0px;
 	}
 
 	#u2484-8
 	{
-		z-index: 39;
+		z-index: 40;
 		width: 705px;
 		min-height: 610px;
 		margin-right: -10000px;
-		margin-top: 170px;
 		left: -205px;
 	}
 
@@ -123,49 +143,25 @@
 		line-height: 36px;
 	}
 
-	#u8040-15
-	{
-		z-index: 47;
-		margin-right: -10000px;
-		margin-top: 1233px;
-		left: 634px;
-	}
-
-	#u10490
-	{
-		z-index: 62;
-		width: 1000px;
-		padding-bottom: 0px;
-		margin-right: -10000px;
-		left: -500px;
-	}
-
-	#u2486-4
-	{
-		z-index: 82;
-	}
-
-	#u2487-4
-	{
-		z-index: 86;
-		left: 0px;
-	}
-
-	#u2485-19
-	{
-		z-index: 63;
-		margin-top: 70px;
-		left: 0px;
-	}
-
 	#u8119
 	{
 		z-index: 90;
 		width: 705px;
 		min-height: 453px;
-		margin-right: -10000px;
-		margin-top: 780px;
 		left: -205px;
+	}
+
+	#u8040-15
+	{
+		z-index: 48;
+		left: 294px;
+	}
+
+	#pu8136
+	{
+		margin-top: 18px;
+		width: 70.5%;
+		margin-left: 14.76%;
 	}
 
 	#u8136
@@ -174,8 +170,7 @@
 		width: 350px;
 		min-height: 750px;
 		margin-right: -10000px;
-		margin-top: 2409px;
-		left: -205px;
+		left: -205.50000000000003px;
 	}
 
 	#u8167
@@ -184,7 +179,18 @@
 		width: 350px;
 		min-height: 750px;
 		margin-right: -10000px;
-		margin-top: 2409px;
-		left: 150px;
+		left: 150.49999999999997px;
+	}
+
+	#u3688
+	{
+		z-index: 38;
+		width: 1px;
+		height: 3000px;
+		background-color: #7F7F7F;
+		position: fixed;
+		top: 340px;
+		left: 50%;
+		margin-left: -233px;
 	}
 
