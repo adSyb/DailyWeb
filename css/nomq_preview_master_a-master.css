@@ -12,13 +12,6 @@
 		font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	}
 
-	#u10737-4
-	{
-		line-height: 19px;
-		font-size: 16px;
-		text-align: center;
-	}
-
 	#u10738,#menuu10742
 	{
 		border-width: 0px;
@@ -43,7 +36,7 @@
 		font-weight: bold;
 	}
 
-	#u10765:hover #u10767-4 p,#u10765:hover #u10767-4 span,#u10765.MuseMenuActive #u10767-4 p,#u10765.MuseMenuActive #u10767-4 span
+	#u10765:hover #u10767-4 p,#u10765:hover #u10767-4 span
 	{
 		color: #0072BC;
 		visibility: inherit;
@@ -65,7 +58,7 @@
 		font-weight: bold;
 	}
 
-	#u10760:hover #u10763-4 p,#u10760:hover #u10763-4 span,#u10760.MuseMenuActive #u10763-4 p,#u10760.MuseMenuActive #u10763-4 span
+	#u10760:hover #u10763-4 p,#u10760:hover #u10763-4 span
 	{
 		color: #0072BC;
 		visibility: inherit;
@@ -87,7 +80,7 @@
 		font-weight: bold;
 	}
 
-	#u10751:hover #u10754-4 p,#u10751:hover #u10754-4 span,#u10751.MuseMenuActive #u10754-4 p,#u10751.MuseMenuActive #u10754-4 span
+	#u10751:hover #u10754-4 p,#u10751:hover #u10754-4 span
 	{
 		color: #0072BC;
 		visibility: inherit;
@@ -109,11 +102,25 @@
 		font-weight: bold;
 	}
 
-	#u10746:hover #u10748-4 p,#u10746:hover #u10748-4 span,#u10746.MuseMenuActive #u10748-4 p,#u10746.MuseMenuActive #u10748-4 span
+	#u10746:hover #u10748-4 p,#u10746:hover #u10748-4 span
 	{
 		color: #0072BC;
 		visibility: inherit;
 		font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	}
+
+	#u10765.MuseMenuActive #u10767-4 p,#u10765.MuseMenuActive #u10767-4 span,#u10760.MuseMenuActive #u10763-4 p,#u10760.MuseMenuActive #u10763-4 span,#u10751.MuseMenuActive #u10754-4 p,#u10751.MuseMenuActive #u10754-4 span,#u10746.MuseMenuActive #u10748-4 p,#u10746.MuseMenuActive #u10748-4 span
+	{
+		color: #777777;
+		visibility: inherit;
+		font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+	}
+
+	#u10737-4
+	{
+		line-height: 19px;
+		font-size: 16px;
+		text-align: center;
 	}
 
 
