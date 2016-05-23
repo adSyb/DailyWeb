@@ -1,7 +1,7 @@
 .version.index /* version checker */
 {
-	color: #0000EB;
-	background-color: #F4720E;
+	color: #000018;
+	background-color: #1A5452;
 }
 
 .js body
@@ -16,13 +16,13 @@
 
 #page
 {
-	margin-right: auto;
-	border-color: #000000;
-	border-width: 0px;
+	margin-left: auto;
 	background-color: #FFFFFF;
 	z-index: 1;
+	margin-right: auto;
+	border-width: 0px;
+	border-color: #000000;
 	background-image: none;
-	margin-left: auto;
 }
 
 #page_position_content
@@ -32,8 +32,8 @@
 
 #pu11159
 {
-	width: 0.01px;
 	margin-left: 20px;
+	width: 0.01px;
 }
 
 #u11159,#u10737-4
@@ -44,27 +44,27 @@
 
 #u10949
 {
-	position: relative;
 	z-index: 2;
+	position: relative;
 }
 
 #u12162
 {
-	background-color: transparent;
-	border-color: transparent;
-	border-width: 0px;
-	min-height: 26px;
-	position: relative;
 	margin-left: 20px;
+	background-color: transparent;
+	border-width: 0px;
 	margin-top: 9px;
+	min-height: 26px;
+	border-color: transparent;
+	position: relative;
 }
 
 #u11294-4
 {
-	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-	letter-spacing: 10px;
 	background-color: transparent;
 	text-align: center;
+	letter-spacing: 10px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 #u11294-2
@@ -76,10 +76,10 @@
 {
 	color: #646464;
 	min-height: 30px;
+	font-style: italic;
 	background-color: transparent;
 	text-align: center;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-	font-style: italic;
 }
 
 #u11295-19
@@ -116,23 +116,23 @@
 
 #u11296-2
 {
-	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	text-align: left;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	padding-bottom: 20px;
 }
 
 #u11296-4,#u11296-6
 {
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
-	text-align: justify;
 	padding-bottom: 10px;
+	text-align: justify;
+	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
 }
 
 #u11299-15
 {
 	color: #030303;
-	position: relative;
 	background-color: transparent;
+	position: relative;
 	text-align: justify;
 }
 
@@ -144,8 +144,8 @@
 
 #u11299-2,#u11299-7
 {
-	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	padding-bottom: 20px;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 }
 
 #u11299-4,#u11299-9,#u11299-11,#u11299-13
@@ -156,19 +156,19 @@
 
 #u11302,#u11301,#u11300
 {
-	border-color: transparent;
-	border-width: 0px;
-	position: relative;
 	background-color: transparent;
+	position: relative;
+	border-width: 0px;
+	border-color: transparent;
 }
 
 #u12045_align_to_page
 {
+	margin-left: auto;
 	padding-top: 5px;
-	margin-right: auto;
 	padding-bottom: 7px;
 	position: relative;
-	margin-left: auto;
+	margin-right: auto;
 }
 
 #buttonu12051,#buttonu12069,#buttonu12090,#buttonu12111
@@ -188,11 +188,11 @@
 #u12052-4,#u12070-4,#u12091-4,#u12112-4
 {
 	left: 5px;
-	margin-right: -10000px;
-	position: relative;
-	min-height: 12px;
-	width: 59px;
 	margin-top: 3px;
+	position: relative;
+	width: 59px;
+	margin-right: -10000px;
+	min-height: 12px;
 }
 
 #buttonu12051:hover #u12052-4,#buttonu12051.ButtonSelected #u12052-4,#buttonu12069:hover #u12070-4,#buttonu12069.ButtonSelected #u12070-4,#buttonu12090:hover #u12091-4,#buttonu12090.ButtonSelected #u12091-4,#buttonu12111:hover #u12112-4,#buttonu12111.ButtonSelected #u12112-4
@@ -558,8 +558,8 @@ body
 	{
 		z-index: 88;
 		min-height: 70px;
-		line-height: 48px;
 		font-size: 40px;
+		line-height: 48px;
 	}
 
 	#u11294-4-bw
@@ -572,8 +572,8 @@ body
 	#u11303-4
 	{
 		z-index: 92;
-		line-height: 22px;
 		font-size: 18px;
+		line-height: 22px;
 	}
 
 	#u11303-4-bw
@@ -1089,8 +1089,8 @@ body
 	{
 		z-index: 88;
 		min-height: 70px;
-		line-height: 43px;
 		font-size: 36px;
+		line-height: 43px;
 	}
 
 	#u11294-4-bw
@@ -1615,8 +1615,8 @@ body
 		z-index: 88;
 		width: 560px;
 		min-height: 60px;
-		line-height: 43px;
 		font-size: 36px;
+		line-height: 43px;
 		margin-left: 20px;
 		margin-top: 20px;
 		position: relative;
@@ -2074,8 +2074,8 @@ body
 		z-index: 82;
 		width: 280px;
 		min-height: 70px;
-		line-height: 29px;
 		font-size: 24px;
+		line-height: 29px;
 		margin-left: 20px;
 		margin-top: 30px;
 		position: relative;
