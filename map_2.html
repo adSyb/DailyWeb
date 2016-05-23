@@ -28,7 +28,6 @@ th, td {
 }
 
 th.num, td.num { width: 200px; text-align: right; }
-th.name, td.name { width: 400px; text-align: left; }
 th.center { text-align: center; }
 
 </style>
@@ -158,7 +157,7 @@ function renderSpreadsheetData() {
 function drawTable(data, tabletop){
 
 	var columns = [
-		{ head: ' ', cl: 'index', html: ƒ('disp') },
+		{ head: ' ', cl: 'name', html: ƒ('disp') },
 		{ head: ' ', cl: 'name', html: ƒ('Name_short') },
 		{ head: 'Arrivals', cl: 'num', html: ƒ('arrivals') },
 		{ head: 'Departures', cl: 'num', html: ƒ('dep_main') },
@@ -166,7 +165,7 @@ function drawTable(data, tabletop){
     ];
 	
 	var sub = [
-		{ head: ' ', cl: 'index', html: ƒ('disp') },
+		{ head: ' ', cl: 'name', html: ƒ('disp') },
 		{ head: ' ', cl: 'name', html: ƒ('Name_short') },
 		{ head: '', cl: 'num', html: ƒ('arrivals') },
 		{ head: 'to Greece Mainland', cl: 'num', html: ƒ('dep_main') },

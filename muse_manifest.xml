@@ -1,10 +1,10 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1463757336952">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1463998307887">
   <folder name="css">
     <file name="site_global.css" crc="29783673"/>
-    <file name="master_a-master.css" crc="377607358" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="3836996311" ref="index"/>
-    <file name="index.css" crc="4150821577" ref="index"/>
-    <file name="nomq_index.css" crc="35745104" ref="index"/>
+    <file name="master_b-master.css" crc="4149018576" ref="index"/>
+    <file name="nomq_preview_master_b-master.css" crc="132170483" ref="index"/>
+    <file name="index.css" crc="4032784010" ref="index"/>
+    <file name="nomq_index.css" crc="344880367" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
@@ -16,38 +16,9 @@
     <file name="jquery.museresponsive.js" crc="3895133147" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="unhcr-visibility-vertical-blue-web_small_2.jpg" crc="3921891659" seo="true" ref="index"/>
+    <file name="pasted-svg-225955x54.svg" crc="3917578038" ref="index"/>
+    <file name="pasted svg 225955x54_poster_.png" crc="4191753394" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
-    <file name="u3570.png" crc="4276507260" ref="index"/>
-    <file name="u3570-r.png" crc="4276507260" ref="index"/>
-    <file name="u3230.png" crc="4209938222" ref="index"/>
-    <file name="u3230-r.png" crc="285426886" ref="index"/>
-    <file name="u3230-a.png" crc="285426886" ref="index"/>
-    <file name="u3222.png" crc="3981316450" ref="index"/>
-    <file name="u3222-r.png" crc="4056099244" ref="index"/>
-    <file name="u3222-a.png" crc="4056099244" ref="index"/>
-    <file name="u3213.png" crc="429500318" ref="index"/>
-    <file name="u3213-r.png" crc="3816393251" ref="index"/>
-    <file name="u3213-a.png" crc="3816393251" ref="index"/>
-    <file name="u3238.png" crc="104846873" ref="index"/>
-    <file name="u3238-r.png" crc="336204024" ref="index"/>
-    <file name="u3238-a.png" crc="336204024" ref="index"/>
-    <file name="u2486-4.png" crc="242197769" ref="index"/>
-    <file name="u2487-4.png" crc="238773055" ref="index"/>
-    <file name="u2485-19.png" crc="4224008503" ref="index"/>
-    <file name="u8040-15.png" crc="4283081088" ref="index"/>
-    <file name="u2486-42.png" crc="356223443" ref="index"/>
-    <file name="u2487-42.png" crc="93956848" ref="index"/>
-    <file name="u2485-192.png" crc="4224008503" ref="index"/>
-    <file name="u8040-152.png" crc="4275614065" ref="index"/>
-    <file name="u2486-43.png" crc="17748022" ref="index"/>
-    <file name="u2487-43.png" crc="4070501611" ref="index"/>
-    <file name="u2485-193.png" crc="4075602033" ref="index"/>
-    <file name="u8040-153.png" crc="173647368" ref="index"/>
-    <file name="u2486-44.png" crc="4268391463" ref="index"/>
-    <file name="u2487-44.png" crc="3996095839" ref="index"/>
-    <file name="u2485-194.png" crc="308079501" ref="index"/>
-    <file name="u8040-154.png" crc="60383072" ref="index"/>
   </folder>
-  <file name="index.html" crc="4072845656" seo="true" mt="1463757027542" redirect="true"/>
+  <file name="index.html" crc="3945256132" seo="true" mt="1463998056248" redirect="true"/>
 </manifest>
