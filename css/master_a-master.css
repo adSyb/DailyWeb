@@ -37,14 +37,6 @@
 	visibility: inherit;
 }
 
-#u12426-6
-{
-	color: #AAAAAA;
-	font-size: 12px;
-	background-color: transparent;
-	line-height: 14px;
-}
-
 #u12045
 {
 	background-color: #777777;
@@ -64,13 +56,31 @@
 	visibility: inherit;
 }
 
-#buttonu12051,#buttonu12201,#buttonu12222,#buttonu12243,#buttonu12345,#buttonu12347,#buttonu12349,#buttonu12351,#buttonu12465,#buttonu12507,#buttonu12444,#buttonu12528,#buttonu12656,#buttonu12549,#buttonu12578
+#buttonu12578
+{
+	background-color: #0072BC;
+	border-color: #787878;
+}
+
+#u12579-4
+{
+	text-align: center;
+	background-color: transparent;
+	letter-spacing: 1px;
+}
+
+#buttonu12578.ButtonSelected #u12579-4 p
+{
+	visibility: inherit;
+}
+
+#buttonu12051,#buttonu12201,#buttonu12222,#buttonu12243,#buttonu12345,#buttonu12347,#buttonu12349,#buttonu12351,#buttonu12465,#buttonu12444,#buttonu12656,#buttonu12507,#buttonu12528,#buttonu12549
 {
 	background-color: transparent;
 	border-color: #787878;
 }
 
-#u12466-4,#u12508-4,#u12445-4,#u12529-4,#u12657-4,#u12550-4,#u12579-4
+#u12466-4,#u12445-4,#u12657-4,#u12508-4,#u12529-4,#u12550-4
 {
 	text-align: left;
 	color: #CCCCCC;
@@ -78,20 +88,20 @@
 	letter-spacing: 1px;
 }
 
-#buttonu12345:hover #u12346-4 p,#buttonu12347:hover #u12348-4 p,#buttonu12349:hover #u12350-4 p,#buttonu12351:hover #u12352-4 p,#buttonu12465:hover #u12466-4 p,#buttonu12507:hover #u12508-4 p,#buttonu12444:hover #u12445-4 p,#buttonu12528:hover #u12529-4 p,#buttonu12656:hover #u12657-4 p,#buttonu12549:hover #u12550-4 p,#buttonu12578:hover #u12579-4 p
+#buttonu12345:hover #u12346-4 p,#buttonu12347:hover #u12348-4 p,#buttonu12349:hover #u12350-4 p,#buttonu12351:hover #u12352-4 p,#buttonu12465:hover #u12466-4 p,#buttonu12578:hover #u12579-4 p,#buttonu12444:hover #u12445-4 p,#buttonu12656:hover #u12657-4 p,#buttonu12507:hover #u12508-4 p,#buttonu12528:hover #u12529-4 p,#buttonu12549:hover #u12550-4 p
 {
 	color: #333333;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	visibility: inherit;
 }
 
-#buttonu12465.ButtonSelected #u12466-4 p,#buttonu12507.ButtonSelected #u12508-4 p,#buttonu12444.ButtonSelected #u12445-4 p,#buttonu12528.ButtonSelected #u12529-4 p,#buttonu12656.ButtonSelected #u12657-4 p,#buttonu12549.ButtonSelected #u12550-4 p,#buttonu12578.ButtonSelected #u12579-4 p
+#buttonu12465.ButtonSelected #u12466-4 p,#buttonu12444.ButtonSelected #u12445-4 p,#buttonu12656.ButtonSelected #u12657-4 p,#buttonu12507.ButtonSelected #u12508-4 p,#buttonu12528.ButtonSelected #u12529-4 p,#buttonu12549.ButtonSelected #u12550-4 p
 {
 	color: #CCCCCC;
 	visibility: inherit;
 }
 
-#u12184,#u12644-4,#u12438-4,#u12432-4,#u12607-4,#u12420-18
+#u12184,#u12644-4,#u12432-4,#u12607-4,#u12438-4,#u12420-18
 {
 	background-color: transparent;
 }
@@ -109,6 +119,14 @@
 #u12420,#u12420-7,#u12420-9,#u12420-11,#u12420-13,#u12420-14,#u12420-16
 {
 	color: #CCCCCC;
+}
+
+#u12426-6
+{
+	color: #AAAAAA;
+	font-size: 12px;
+	background-color: transparent;
+	line-height: 14px;
 }
 
 #u12677
@@ -187,46 +205,10 @@
 		line-height: 19px;
 	}
 
-	#u12466-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12445-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12657-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
 	#u12350-4
 	{
 		font-size: 16px;
 		line-height: 19px;
-	}
-
-	#u12508-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12529-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12550-4
-	{
-		font-size: 12px;
-		line-height: 14px;
 	}
 
 	#u12352-4
@@ -235,16 +217,39 @@
 		line-height: 19px;
 	}
 
-	#u12579-4
+	#u12420-18,#u12508-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
 	}
 
-	#u12420-18
+	#u12466-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
+	}
+
+	#buttonu12578.ButtonSelected #u12579-4 p,#u12579-4
+	{
+		color: #FFFFFF;
+	}
+
+	#u12529-4
+	{
+		font-size: 14px;
+	}
+
+	#u12445-4
+	{
+		font-size: 14px;
+	}
+
+	#u12550-4
+	{
+		font-size: 14px;
+	}
+
+	#u12657-4
+	{
+		font-size: 14px;
 	}
 
 }
@@ -320,46 +325,10 @@
 		line-height: 19px;
 	}
 
-	#u12466-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12445-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12657-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
 	#u12350-4
 	{
 		font-size: 16px;
 		line-height: 19px;
-	}
-
-	#u12508-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12529-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12550-4
-	{
-		font-size: 12px;
-		line-height: 14px;
 	}
 
 	#u12352-4
@@ -368,22 +337,50 @@
 		line-height: 19px;
 	}
 
-	#u12579-4
+	#u12420-18,#u12508-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
 	}
 
-	#u12420-18
+	#u12466-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
+	}
+
+	#buttonu12578.ButtonSelected #u12579-4 p,#u12579-4
+	{
+		color: #FFFFFF;
+	}
+
+	#u12529-4
+	{
+		font-size: 14px;
+	}
+
+	#u12445-4
+	{
+		font-size: 14px;
+	}
+
+	#u12550-4
+	{
+		font-size: 14px;
+	}
+
+	#u12657-4
+	{
+		font-size: 14px;
 	}
 
 }
 
 @media (min-width: 601px) and (max-width: 800px)
 {
+	#buttonu12578.ButtonSelected #u12579-4 p
+	{
+		color: #CCCCCC;
+	}
+
 	#u11192
 	{
 		background-color: #0072BC;
@@ -465,58 +462,51 @@
 		line-height: 16px;
 	}
 
-	#u12466-4
+	#u12420-18,#u12466-4
 	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12508-4
-	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
 	}
 
 	#u12445-4
 	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12529-4
-	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
 	}
 
 	#u12657-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
+	}
+
+	#u12508-4
+	{
+		font-size: 14px;
+	}
+
+	#u12529-4
+	{
+		font-size: 14px;
 	}
 
 	#u12550-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
 	}
 
 	#u12579-4
 	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12420-18
-	{
-		font-size: 12px;
-		line-height: 14px;
+		color: #CCCCCC;
+		font-size: 14px;
 	}
 
 }
 
 @media (max-width: 600px)
 {
+	#buttonu12578.ButtonSelected #u12579-4 p
+	{
+		color: #CCCCCC;
+	}
+
 	#u10737-4
 	{
 		font-size: 11px;
@@ -572,43 +562,7 @@
 		line-height: 13px;
 	}
 
-	#u12466-4
-	{
-		font-size: 10px;
-		line-height: 12px;
-	}
-
-	#u12508-4
-	{
-		font-size: 10px;
-		line-height: 12px;
-	}
-
-	#u12445-4
-	{
-		font-size: 10px;
-		line-height: 12px;
-	}
-
-	#u12529-4
-	{
-		font-size: 10px;
-		line-height: 12px;
-	}
-
-	#u12657-4
-	{
-		font-size: 10px;
-		line-height: 12px;
-	}
-
-	#u12550-4
-	{
-		font-size: 10px;
-		line-height: 12px;
-	}
-
-	#u12644-4,#u12438-4,#u12432-4,#u12607-4
+	#u12644-4,#u12432-4,#u12466-4
 	{
 		font-size: 12px;
 		line-height: 14px;
@@ -616,14 +570,45 @@
 
 	#u12579-4
 	{
-		font-size: 10px;
-		line-height: 12px;
+		color: #CCCCCC;
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	#u12445-4
+	{
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	#u12607-4,#u12657-4
+	{
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	#u12438-4,#u12508-4
+	{
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	#u12529-4
+	{
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	#u12550-4
+	{
+		font-size: 12px;
+		line-height: 14px;
 	}
 
 	#u12420-18
 	{
-		font-size: 10px;
-		line-height: 12px;
+		font-size: 12px;
+		line-height: 14px;
 	}
 
 }

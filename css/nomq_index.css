@@ -11,7 +11,7 @@
 	#page
 	{
 		width: 1020px;
-		min-height: 639.5921544999919px;
+		min-height: 770.5921544999919px;
 		padding-bottom: 0px;
 	}
 
@@ -341,13 +341,6 @@
 		left: 359px;
 	}
 
-	#u12426-6
-	{
-		z-index: 75;
-		width: 980px;
-		margin-top: 6px;
-	}
-
 	#pu12045
 	{
 		margin-left: -330px;
@@ -356,8 +349,8 @@
 	#u12045
 	{
 		z-index: 13;
-		min-height: 212px;
-		padding-bottom: 28px;
+		min-height: 235px;
+		padding-bottom: 136px;
 	}
 
 	#u12045_align_to_page
@@ -373,11 +366,6 @@
 		margin-right: -10000px;
 		margin-top: 2px;
 		margin-left: 350px;
-	}
-
-	#pu11301,#pbuttonu12345
-	{
-		width: 0.01px;
 	}
 
 	#buttonu12345
@@ -451,118 +439,31 @@
 		width: 56px;
 	}
 
-	#u12644-4
+	#u12607-4
 	{
-		z-index: 119;
+		z-index: 123;
 		margin-top: 21px;
 	}
 
-	#buttonu12465
+	#u12420-18
 	{
-		z-index: 94;
-		width: 150px;
-		padding-bottom: 4px;
-		margin-left: 11px;
-		margin-top: 5px;
-	}
-
-	#buttonu12465:hover
-	{
-		margin-left: 11px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
-	}
-
-	#u12466-4
-	{
-		z-index: 95;
-		width: 150px;
-	}
-
-	#buttonu12465:hover #u12466-4
-	{
-		width: 150px;
-	}
-
-	#buttonu12444
-	{
-		z-index: 89;
-		width: 150px;
-		padding-bottom: 4px;
-		margin-left: 11px;
+		z-index: 57;
+		width: 201px;
 		margin-top: 4px;
 	}
 
-	#buttonu12444:hover
-	{
-		margin-left: 11px;
-		margin-right: 0px;
-		margin-top: 4px;
-		width: 150px;
-	}
-
-	#buttonu12444.ButtonSelected
-	{
-		margin-left: 11px;
-		margin-right: 0px;
-		margin-top: 4px;
-		width: 150px;
-	}
-
-	#u12445-4
-	{
-		z-index: 90;
-		width: 150px;
-	}
-
-	#buttonu12465.ButtonSelected #u12466-4,#buttonu12444:hover #u12445-4
-	{
-		width: 150px;
-	}
-
-	#buttonu12656
-	{
-		z-index: 127;
-		width: 150px;
-		padding-bottom: 4px;
-		margin-left: 11px;
-		margin-top: 5px;
-	}
-
-	#buttonu12465.ButtonSelected,#buttonu12656:hover
-	{
-		margin-left: 11px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
-	}
-
-	#buttonu12656.ButtonSelected
-	{
-		margin-left: 11px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
-	}
-
-	#u12657-4
-	{
-		z-index: 128;
-		width: 150px;
-	}
-
-	#buttonu12444.ButtonSelected #u12445-4,#buttonu12656:hover #u12657-4
-	{
-		width: 150px;
-	}
-
-	#pbuttonu12349
+	#ppbuttonu12349
 	{
 		width: 0.01px;
+		padding-bottom: 0px;
 		margin-right: -10000px;
 		margin-top: 2px;
 		margin-left: 584px;
+	}
+
+	#pu11301,#pbuttonu12345,#pbuttonu12349
+	{
+		width: 0.01px;
 	}
 
 	#buttonu12349
@@ -574,16 +475,12 @@
 
 	#buttonu12349:hover
 	{
-		margin-left: 0px;
-		margin-right: 0px;
 		margin-top: 0px;
 		width: 119px;
 	}
 
 	#buttonu12349.ButtonSelected
 	{
-		margin-left: 0px;
-		margin-right: 0px;
 		margin-top: 0px;
 		width: 119px;
 	}
@@ -604,132 +501,22 @@
 		width: 119px;
 	}
 
-	#u12438-4
-	{
-		z-index: 85;
-		margin-left: 12px;
-		margin-top: 21px;
-	}
-
-	#buttonu12507
-	{
-		z-index: 99;
-		width: 150px;
-		padding-bottom: 4px;
-		margin-left: 23px;
-		margin-top: 5px;
-	}
-
-	#buttonu12507:hover
-	{
-		margin-left: 23px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
-	}
-
-	#u12508-4
-	{
-		z-index: 100;
-		width: 150px;
-	}
-
-	#buttonu12656.ButtonSelected #u12657-4,#buttonu12507:hover #u12508-4
-	{
-		width: 150px;
-	}
-
-	#buttonu12528
-	{
-		z-index: 104;
-		width: 150px;
-		padding-bottom: 4px;
-		margin-left: 23px;
-		margin-top: 5px;
-	}
-
-	#buttonu12507.ButtonSelected,#buttonu12528:hover
-	{
-		margin-left: 23px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
-	}
-
-	#u12529-4
-	{
-		z-index: 105;
-		width: 150px;
-	}
-
-	#buttonu12507.ButtonSelected #u12508-4,#buttonu12528:hover #u12529-4
-	{
-		width: 150px;
-	}
-
-	#buttonu12549
-	{
-		z-index: 109;
-		width: 150px;
-		padding-bottom: 4px;
-		margin-left: 23px;
-		margin-top: 5px;
-	}
-
-	#buttonu12528.ButtonSelected,#buttonu12549:hover
-	{
-		margin-left: 23px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
-	}
-
-	#buttonu12549.ButtonSelected
-	{
-		margin-left: 23px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
-	}
-
-	#u12550-4
-	{
-		z-index: 110;
-		width: 150px;
-	}
-
-	#buttonu12528.ButtonSelected #u12529-4,#buttonu12549:hover #u12550-4
-	{
-		width: 150px;
-	}
-
-	#pbuttonu12351
-	{
-		width: 0.01px;
-		margin-right: -10000px;
-		margin-top: 2px;
-		margin-left: 763px;
-	}
-
 	#buttonu12351
 	{
 		z-index: 51;
 		width: 87px;
 		padding-bottom: 8px;
+		left: 179px;
 	}
 
 	#buttonu12351:hover
 	{
-		margin-left: 0px;
-		margin-right: 0px;
 		margin-top: 0px;
 		width: 87px;
 	}
 
 	#buttonu12351.ButtonSelected
 	{
-		margin-left: 0px;
-		margin-right: 0px;
 		margin-top: 0px;
 		width: 87px;
 	}
@@ -750,79 +537,300 @@
 		width: 87px;
 	}
 
+	#pu12438-4
+	{
+		width: 0.01px;
+		margin-left: 21px;
+		margin-top: 21px;
+	}
+
+	#u12438-4
+	{
+		z-index: 85;
+		margin-right: -10000px;
+	}
+
+	#u12644-4
+	{
+		z-index: 119;
+		width: 106px;
+		left: 245px;
+	}
+
 	#u12432-4
 	{
 		z-index: 81;
-		margin-left: 78px;
-		margin-top: 21px;
+		width: 106px;
+		margin-right: -10000px;
+		left: 490px;
+	}
+
+	#pbuttonu12507
+	{
+		width: 0.01px;
+		margin-left: 21px;
+		margin-top: 4px;
+	}
+
+	#buttonu12507
+	{
+		z-index: 99;
+		width: 150px;
+		padding-bottom: 1px;
+		margin-right: -10000px;
+		margin-top: 1px;
+	}
+
+	#buttonu12507:hover
+	{
+		margin-left: 0px;
+		margin-right: -10000px;
+		margin-top: 1px;
+		width: 150px;
+	}
+
+	#u12508-4
+	{
+		z-index: 100;
+		width: 150px;
+	}
+
+	#buttonu12507:hover #u12508-4
+	{
+		width: 150px;
+	}
+
+	#buttonu12465
+	{
+		z-index: 94;
+		width: 150px;
+		padding-bottom: 1px;
+		margin-right: -10000px;
+		left: 245px;
+	}
+
+	#buttonu12465:hover
+	{
+		margin-right: -10000px;
+		width: 150px;
+	}
+
+	#buttonu12465.ButtonSelected
+	{
+		margin-right: -10000px;
+		width: 150px;
+	}
+
+	#u12466-4
+	{
+		z-index: 95;
+		width: 150px;
+	}
+
+	#buttonu12507.ButtonSelected #u12508-4,#buttonu12465:hover #u12466-4
+	{
+		width: 150px;
 	}
 
 	#buttonu12578
 	{
 		z-index: 114;
-		width: 150px;
-		padding-bottom: 4px;
-		margin-left: 89px;
-		margin-top: 5px;
+		width: 235px;
+		padding-bottom: 7px;
+		margin-right: -10000px;
+		left: 490px;
 	}
 
 	#buttonu12578:hover
 	{
-		margin-left: 89px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
+		margin-right: -10000px;
+		margin-top: 0px;
+		width: 235px;
 	}
 
 	#buttonu12578.ButtonSelected
 	{
-		margin-left: 89px;
-		margin-right: 0px;
-		margin-top: 5px;
-		width: 150px;
+		margin-right: -10000px;
+		margin-top: 0px;
+		width: 235px;
 	}
 
 	#u12579-4
 	{
 		z-index: 115;
 		width: 150px;
+		margin-top: 6px;
+		left: 43px;
 	}
 
-	#buttonu12549.ButtonSelected #u12550-4,#buttonu12578:hover #u12579-4
+	#buttonu12578:hover #u12579-4
 	{
+		margin-top: 6px;
 		width: 150px;
 	}
 
 	#buttonu12578.ButtonSelected #u12579-4
 	{
+		margin-top: 6px;
 		width: 150px;
 	}
 
-	#pu12607-4
+	#pbuttonu12528
 	{
 		width: 0.01px;
+		margin-left: 21px;
+		margin-top: -3px;
+	}
+
+	#buttonu12528
+	{
+		z-index: 104;
+		width: 150px;
+		padding-bottom: 1px;
 		margin-right: -10000px;
-		margin-top: 61px;
-		margin-left: 1085px;
+		margin-top: 1px;
 	}
 
-	#u12607-4
+	#buttonu12507.ButtonSelected,#buttonu12528:hover
 	{
-		z-index: 123;
+		margin-left: 0px;
+		margin-right: -10000px;
+		margin-top: 1px;
+		width: 150px;
 	}
 
-	#u12420-18
+	#u12529-4
 	{
-		z-index: 57;
-		width: 174px;
-		margin-left: 10px;
-		margin-top: 9px;
+		z-index: 105;
+		width: 150px;
+	}
+
+	#buttonu12465.ButtonSelected #u12466-4,#buttonu12528:hover #u12529-4
+	{
+		width: 150px;
+	}
+
+	#buttonu12444
+	{
+		z-index: 89;
+		width: 150px;
+		padding-bottom: 1px;
+		margin-right: -10000px;
+		left: 245px;
+	}
+
+	#buttonu12444:hover
+	{
+		margin-right: -10000px;
+		margin-top: 0px;
+		width: 150px;
+	}
+
+	#u12445-4
+	{
+		z-index: 90;
+		width: 150px;
+	}
+
+	#buttonu12528.ButtonSelected #u12529-4,#buttonu12444:hover #u12445-4
+	{
+		width: 150px;
+	}
+
+	#pbuttonu12549
+	{
+		width: 0.01px;
+		margin-left: 21px;
+		margin-top: 5px;
+	}
+
+	#buttonu12549
+	{
+		z-index: 109;
+		width: 150px;
+		padding-bottom: 1px;
+		margin-right: -10000px;
+		margin-top: 1px;
+	}
+
+	#buttonu12528.ButtonSelected,#buttonu12549:hover
+	{
+		margin-left: 0px;
+		margin-right: -10000px;
+		margin-top: 1px;
+		width: 150px;
+	}
+
+	#buttonu12549.ButtonSelected
+	{
+		margin-left: 0px;
+		margin-right: -10000px;
+		margin-top: 1px;
+		width: 150px;
+	}
+
+	#u12550-4
+	{
+		z-index: 110;
+		width: 150px;
+	}
+
+	#buttonu12444.ButtonSelected #u12445-4,#buttonu12549:hover #u12550-4
+	{
+		width: 150px;
+	}
+
+	#buttonu12656
+	{
+		z-index: 127;
+		width: 150px;
+		padding-bottom: 1px;
+		margin-right: -10000px;
+		left: 245px;
+	}
+
+	#buttonu12444.ButtonSelected,#buttonu12656:hover
+	{
+		margin-right: -10000px;
+		margin-top: 0px;
+		width: 150px;
+	}
+
+	#buttonu12656.ButtonSelected
+	{
+		margin-right: -10000px;
+		margin-top: 0px;
+		width: 150px;
+	}
+
+	#u12657-4
+	{
+		z-index: 128;
+		width: 150px;
+	}
+
+	#buttonu12549.ButtonSelected #u12550-4,#buttonu12656:hover #u12657-4
+	{
+		width: 150px;
+	}
+
+	#buttonu12656.ButtonSelected #u12657-4
+	{
+		width: 150px;
+	}
+
+	#u12426-6
+	{
+		z-index: 75;
+		width: 715px;
+		margin-left: 22px;
+		margin-top: 34px;
 	}
 
 	#u12045-bw
 	{
 		z-index: 13;
-		min-height: 212px;
+		min-height: 235px;
 	}
 
 	#u12677

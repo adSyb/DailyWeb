@@ -67,46 +67,10 @@
 		line-height: 19px;
 	}
 
-	#u12466-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12445-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12657-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
 	#u12350-4
 	{
 		font-size: 16px;
 		line-height: 19px;
-	}
-
-	#u12508-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12529-4
-	{
-		font-size: 12px;
-		line-height: 14px;
-	}
-
-	#u12550-4
-	{
-		font-size: 12px;
-		line-height: 14px;
 	}
 
 	#u12352-4
@@ -115,16 +79,39 @@
 		line-height: 19px;
 	}
 
-	#u12579-4
+	#u12420-18,#u12508-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
 	}
 
-	#u12420-18
+	#u12466-4
 	{
-		font-size: 12px;
-		line-height: 14px;
+		font-size: 14px;
+	}
+
+	#buttonu12578.ButtonSelected #u12579-4 p,#u12579-4
+	{
+		color: #FFFFFF;
+	}
+
+	#u12529-4
+	{
+		font-size: 14px;
+	}
+
+	#u12445-4
+	{
+		font-size: 14px;
+	}
+
+	#u12550-4
+	{
+		font-size: 14px;
+	}
+
+	#u12657-4
+	{
+		font-size: 14px;
 	}
 
 
