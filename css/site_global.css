@@ -98,25 +98,25 @@ body
 
 a:link
 {
-	color: #0000FF;
+	color: #0072BC;
 	text-decoration: underline;
 }
 
 a:visited
 {
-	color: #800080;
+	color: #7F7F7F;
 	text-decoration: underline;
 }
 
 a:hover
 {
-	color: #0000FF;
+	color: #333333;
 	text-decoration: underline;
 }
 
 a:active
 {
-	color: #EE0000;
+	color: #333333;
 	text-decoration: underline;
 }
 
@@ -126,6 +126,30 @@ a.nontext /* used to override default properties of 'a' tag */
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
+}
+
+.style_dark a:link
+{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.style_dark a:visited
+{
+	color: #7F7F7F;
+	text-decoration: underline;
+}
+
+.style_dark a:hover
+{
+	color: #0072BC;
+	text-decoration: underline;
+}
+
+.style_dark a:active
+{
+	color: #0072BC;
+	text-decoration: underline;
 }
 
 .normal_text

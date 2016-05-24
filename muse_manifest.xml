@@ -1,24 +1,22 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1464011790965">
+<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1464088768411">
   <folder name="css">
-    <file name="site_global.css" crc="29783673"/>
-    <file name="index.css" crc="404378706" ref="index"/>
-    <file name="nomq_index.css" crc="527551722" ref="index"/>
-    <file name="master_a-master.css" crc="3913709763" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="3926623396" ref="index"/>
+    <file name="site_global.css" crc="280808487"/>
+    <file name="master_a-master.css" crc="171136628" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="9753414" ref="index"/>
+    <file name="index.css" crc="64987919" ref="index"/>
+    <file name="nomq_index.css" crc="3913739533" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
     <file name="museutils.js" crc="3790713428" ref="index"/>
     <file name="whatinput.js" crc="84559013" ref="index"/>
-    <file name="jquery.musemenu.js" crc="238543590" ref="index"/>
     <file name="jquery.watch.js" crc="4244854265" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index"/>
     <file name="jquery.museresponsive.js" crc="3895133147" ref="index"/>
   </folder>
   <folder name="images">
-    <file name="pasted-svg-225955x54.svg" crc="3917578038" ref="index"/>
-    <file name="pasted svg 225955x54_poster_.png" crc="4191753394" ref="index"/>
+    <file name="pasted-svg-225955x54.svg" crc="3857189893" ref="index"/>
+    <file name="pasted svg 225955x54_poster_.png" crc="3987260740" ref="index"/>
     <file name="blank.gif" crc="4208392903" ref="index"/>
   </folder>
-  <file name="index.html" crc="190171186" seo="true" mt="1464011284561" redirect="true"/>
+  <file name="index.html" crc="4197322326" seo="true" mt="1464088614423" redirect="true"/>
 </manifest>
