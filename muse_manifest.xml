@@ -1,22 +1,29 @@
-<manifest alg="2" build="2015.1.2.344" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1464095742050">
+<manifest alg="2" build="2015.2.0.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="iau.geodataviz.info" resolutions="1x" timestamp="1467301457819">
   <folder name="css">
-    <file name="site_global.css" crc="280808487"/>
-    <file name="master_a-master.css" crc="197975194" ref="index"/>
-    <file name="nomq_preview_master_a-master.css" crc="4000103395" ref="index"/>
-    <file name="index.css" crc="4068824032" ref="index"/>
-    <file name="nomq_index.css" crc="447856654" ref="index"/>
+    <file name="site_global.css" crc="279539219"/>
+    <file name="master_a-master.css" crc="4292377515" ref="index:timeline"/>
+    <file name="nomq_preview_master_a-master.css" crc="3944977058" ref="index:timeline"/>
+    <file name="index.css" crc="31406596" ref="index"/>
+    <file name="nomq_index.css" crc="3930447940" ref="index"/>
+    <file name="timeline.css" crc="3916286368" ref="timeline"/>
+    <file name="nomq_timeline.css" crc="431058187" ref="timeline"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="207176553" ref="index"/>
-    <file name="museutils.js" crc="3790713428" ref="index"/>
-    <file name="whatinput.js" crc="84559013" ref="index"/>
-    <file name="jquery.watch.js" crc="4244854265" ref="index"/>
-    <file name="jquery.museresponsive.js" crc="3895133147" ref="index"/>
+    <file name="jquery-1.8.3.min.js" crc="312386352" ref="index:timeline"/>
+    <file name="museutils.js" crc="4155826306" ref="index:timeline"/>
+    <file name="whatinput.js" crc="86476730" ref="index:timeline"/>
+    <file name="museconfig.js" crc="328327953" ref="index:timeline"/>
+    <file name="jquery.watch.js" crc="117772946" ref="index:timeline"/>
+    <file name="jquery.museresponsive.js" crc="439107114" ref="index:timeline"/>
+    <file name="require.js" crc="228336483" ref="index:timeline"/>
   </folder>
   <folder name="images">
-    <file name="pasted-svg-225955x54.svg" crc="3857189893" ref="index"/>
-    <file name="pasted svg 225955x54_poster_.png" crc="3987260740" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="pasted-svg-225955x54.svg" crc="3857189893" seo="true" ref="index:timeline"/>
+    <file name="pasted svg 225955x54_poster_.png" crc="4032080990" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:timeline"/>
+    <file name="pasted-svg-43134x591.svg" crc="3791711776" seo="true" ref="timeline"/>
+    <file name="pasted svg 43134x591_poster_.png" crc="456371791" ref="timeline"/>
   </folder>
-  <file name="index.html" crc="5411805" seo="true" mt="1464095680405" redirect="true"/>
+  <file name="index.html" crc="311052607" seo="true" mt="1467301002178" redirect="true"/>
+  <file name="timeline.html" crc="3947090783" seo="true" mt="1467301440262" redirect="true"/>
 </manifest>
